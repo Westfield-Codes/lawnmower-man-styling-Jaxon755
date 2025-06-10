@@ -1,14 +1,30 @@
 body {
+  background-color:#004D4D;
+  padding-top:350px;
 }
 .box{
   width:500px;
-  height:150px;
+  height:200px;
   margin:0 auto;
-}
+  background-color:#C0C0C0;
+    text-align:center;
+ 
+ 
 
-.title button{
-  width:15px;
-  height:15px;
+}
+button{
+  float:right;
+ 
+  
+ 
+ 
+ 
+}
+.title{
+    background-color:#000080;
+  color:white;
+  text-align:left;
+
 }
 
 .body {
@@ -29,6 +45,8 @@ body {
 #buttons {
   height:50px;
   width:100px;
+  float:right;
+ 
 }
 
 #buttons button {
@@ -42,4 +60,9 @@ label {
 
 input {
   width:150px;
+
+  
 }
+
+
+
