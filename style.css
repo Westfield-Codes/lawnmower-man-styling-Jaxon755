@@ -1,29 +1,36 @@
 body {
-  background-color:#004D4D;
+  background-color:#008080;
   padding-top:350px;
+  font-family:"ＭＳ Ｐゴシック";
 }
 .box{
   width:500px;
   height:200px;
   margin:0 auto;
   background-color:#C0C0C0;
-    text-align:center;
+  text-align: right;
+  background-image: url('key.png');
+  background-repeat: no-repeat;
+  background-position: left;
+  
+
+
  
  
 
 }
 button{
   float:right;
- 
-  
- 
- 
+  margin-top: -20px;
  
 }
 .title{
     background-color:#000080;
   color:white;
   text-align:left;
+  padding-bottom:1px;
+  
+  
 
 }
 
@@ -36,6 +43,7 @@ button{
 
 #dialogs {
   width:240px;
+ 
 }
 
 .body p {
@@ -45,7 +53,7 @@ button{
 #buttons {
   height:50px;
   width:100px;
-  float:right;
+
  
 }
 
@@ -55,14 +63,14 @@ button{
 .body button{
 }
 
-label {
+label {  
+
 }
 
 input {
   width:150px;
+  text-align:right;
 
   
 }
-
-
 
