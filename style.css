@@ -11,17 +11,22 @@ body {
   text-align: right;
   background-image: url('key.png');
   background-repeat: no-repeat;
-  background-position: left;
+  background-position-x: 15px;
+  background-position-y: 50px;
+  margin-bottom:10px;
+  border:1px white solid;
   
-
 
  
  
 
 }
+
 button{
   float:right;
-  margin-top: -20px;
+  background-color:#C0C0C0;
+  color:#000000;
+  
  
 }
 .title{
@@ -29,6 +34,8 @@ button{
   color:white;
   text-align:left;
   padding-bottom:1px;
+  margin-top:-15px;
+ 
   
   
 
@@ -39,10 +46,16 @@ button{
 
 #leftside {
   width:375px;
+   margin-left:70px;
+ 
+
 }
 
 #dialogs {
-  width:240px;
+  width:300px;
+ 
+  margin-top:50px;
+  
  
 }
 
@@ -70,7 +83,12 @@ label {
 input {
   width:150px;
   text-align:right;
+  
+
+
+  
 
   
 }
+
 
